@@ -65,7 +65,7 @@ li {
     flex-direction: column;
 }
 
-@media(max-width:50em){
+@media(max-width:1100px){
     body {
         text-align: center;
         background-color: blueviolet;
