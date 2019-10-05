@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+
+
+
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    background-color: #a9d7d1;
+    text-align: center;
+}
+
+#form-outer {
+    background-color: #fafafa;
+    max-width: 55em;
+    margin: auto;
+    padding: 1em;
+}
+
+.rowTab {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.labels {
+    flex-basis: 50%;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.rightTab {
+    flex-basis: 50%;
+    text-align: left;
+    flex-wrap: wrap;
+    vertical-align: bottom;
+}
+
+#submit {
+    background-color: #59ace0;
+    color: #ffffff;
+    width: 9em;
+    height: 3em;
+    border: none;
+    border-radius: 5%;
+    padding: 0.5em;
+}
+
+.input-field {
+    width: 20em;
+    height: 1.5em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.dropdown {
+    width: 15em;
+    height: 3em;
+    margin: 0.5em;
+}
+
+li {
+    margin-left: 0;
+}
+
+.userRating {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:50em){
+    body {
+        text-align: center;
+        background-color: blueviolet;
+    }
+    .rightTab {
+        display: block;
+        margin: auto;
+    }
+
+    .labels {
+        text-align: left;
+        margin: auto;
+        display: block;
+    }
+
+    .rowTab {
+        text-align: center;
+        display: block;
+    }
+
+    .userRating {
+        display: flex;
+        flex-direction: column;
+    }
+}
